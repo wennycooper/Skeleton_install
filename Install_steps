@@ -1,0 +1,11 @@
+Date: 2017.04.25
+Author: HaoChih, LIN
+
+1. Copy "NiTE-2.0.0" and "OpenNI2" pkgs to your home folder
+2. "$ cd OpenNI2", then "$ make"
+3. "$ cd NiTE-2.0.0", then  "$ ./install.sh" followed by "$ ./ROS_setup_nite.sh"
+3.5. $ sudo cp libNiTE2.so /usr/local/lib/
+4. Copy "openni2_tracker" to your catkin_ws
+5. catkin_make
+6. Plug your rgbd sensor
+7. $ roslaunch openni2_tracker tracker.launch
